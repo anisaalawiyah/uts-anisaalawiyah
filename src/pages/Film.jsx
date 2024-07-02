@@ -115,7 +115,7 @@ export default function Film() {
   }
 
   const handleClick = (film) => {
-    alert(`Judul: ${film.Judul}\nGenre: ${film.Genre}\nDurasi: ${film.Durasi}\nTahun Rilis: ${film.tahunRilis}\nSinopsis:${film.sinopsis}`);
+    alert(`Judul: ${film.Judul}\nGenre: ${film.Genre}\nDurasi: ${film.Durasi}\nSinopsis:${film.sinopsis}`);
   };
 
   const handleLike = (id) => {
